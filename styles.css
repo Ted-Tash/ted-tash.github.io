@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #2c3e50; /* Dark background color */
+  color: #ecf0f1; /* Light text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #34495e; /* Slightly lighter dark color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Add this to position child elements */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #ecf0f1; /* Light text color */
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center the navbar */
+  margin-top: 20px;
+  gap: 15px; /* Add space between links */
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1; /* Light text color */
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #2980b9; /* Button background color */
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #3498db; /* Button hover color */
+}
+
+a {
+  color: #ffffff; /* White text color */
+}
+
+a:hover {
+  background-color: #3498db; /* Lighter blue for hover effect */
+}
+
+.landscape-image {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  width: 190px; /* Adjust as needed */
+  height: auto;
+}
+
+.boop-image {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+}
